@@ -1,0 +1,15 @@
+# CODEOWNERS
+# 이 파일에 등록된 사용자는 해당 경로 변경 PR에 자동으로 리뷰어로 지정됩니다.
+# 저장소 생성 시 실제 파트원 GitHub 계정으로 교체하세요.
+
+# 기본: 전체 경로 (지정 없는 파일은 기본 리뷰어가 담당)
+*                   @your-org/your-part-team
+
+# 인프라/배포 관련
+/deploy/            @your-org/your-part-team
+/.github/            @your-org/your-part-team
+Dockerfile          @your-org/your-part-team
+cloudbuild.yaml     @your-org/your-part-team
+
+# 문서
+*.md                @your-org/your-part-team
