@@ -18,3 +18,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: bash scripts/ci/build.sh
+  secret-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash scripts/ci/secret-scan.sh
+  dependency-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash scripts/ci/dependency-scan.sh
