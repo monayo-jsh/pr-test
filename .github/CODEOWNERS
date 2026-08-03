@@ -3,13 +3,13 @@
 # 저장소 생성 시 실제 파트원 GitHub 계정으로 교체하세요.
 
 # 기본: 전체 경로 (지정 없는 파일은 기본 리뷰어가 담당)
-*                   @your-org/your-part-team
+*                   @monayo-jsh @monayo-lguplus
 
 # 인프라/배포 관련
-/deploy/            @your-org/your-part-team
-/.github/            @your-org/your-part-team
-Dockerfile          @your-org/your-part-team
-cloudbuild.yaml     @your-org/your-part-team
+/deploy/            @monayo-jsh @monayo-lguplus
+/.github/           @monayo-jsh @monayo-lguplus
+Dockerfile          @monayo-jsh @monayo-lguplus
+cloudbuild.yaml     @monayo-jsh @monayo-lguplus
 
 # 문서
-*.md                @your-org/your-part-team
+*.md                @monayo-jsh @monayo-lguplus
